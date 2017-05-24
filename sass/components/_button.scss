@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.cta {
+    border:none;
+    background-color:$highlights;
+    color:$main-bg;
+    font-family:$bebas;
+    padding:toRem(10px);
+    font-size:1.5rem;
+    margin-top:toRem(50px);
+}

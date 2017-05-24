@@ -1,0 +1,31 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+.page-footer {
+    text-align:center;
+    
+    h3 {
+        color:$highlights;
+        font-size:3.2rem;
+    }
+    
+    h5 {
+        font-size:1.8rem;
+        margin:0;
+    }
+    
+    p {
+        
+        margin:0;
+    }
+    
+}
+
+.social-media {
+    margin-top:toRem(30px);
+    color:$main-bg;
+    .fa-circle {
+        color:$text-color;
+    }
+}

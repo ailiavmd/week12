@@ -1,0 +1,31 @@
+.top-nav {
+    font-family:$bebas;
+    font-size:3rem;
+}
+
+.site-nav {
+    background-color:$highlights;
+    text-align:center;
+    
+    a{
+        color:$main-bg;
+        
+        :hover {
+            color:$text-color;
+        }
+    }
+    
+    ul {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        
+        li {
+            display:inline-block;
+            font-family:$bebas;
+            font-size:3rem;
+            margin:0 toRem(30px);
+            padding:toRem(30px);
+        }
+    }
+}
