@@ -4,6 +4,7 @@
 @import '../node_modules/foundation-sites/scss/foundation';
 @include foundation-grid;
 @include foundation-visibility-classes;
+@include foundation-tabs;
 
 // 1. Configuration and helpers
 @import
@@ -34,7 +35,8 @@
 
 // 6. Page-specific styles
 @import
-  'pages/home';
+  'pages/home',
+  'pages/backend';
 
 // 7. Themes
 @import

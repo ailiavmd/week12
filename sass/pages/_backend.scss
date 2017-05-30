@@ -1,0 +1,109 @@
+.backend {
+    text-align:center;
+    h1 {
+        font-size:5rem;
+        color:$text-color;
+        margin-bottom:0;
+    }
+    h2 {
+        font-size:1.5;
+    }
+    .intro {
+        padding:0;
+        color:$highlights;
+        width:300px;
+        margin:0 auto 30px auto;
+    }
+    nav {
+        margin-top:50px;
+        //margin-bottom:15px;
+    }
+    ul {
+        margin:0;
+        padding:0;
+    }
+    a{
+        text-decoration:none;
+    }
+    #backend-nav {
+        ul {
+            display:flex;
+            width:100%;
+            border:none;
+            background-color:transparent;
+            a {
+                color:$main-bg;
+                font-family:$bebas;
+                font-size:2rem;
+                letter-spacing:3px;
+            }
+        }
+        ul li {
+            display:flex;
+            flex-direction:column;       
+            flex-grow:1;
+        }
+        .tabs-title {
+            background-color:$dark-bg;
+            a {
+                color:$text-color;
+                transition:0.5s;
+            }
+            a:hover {
+                color:$main-bg;
+            }
+
+            a[aria-selected='true'] {
+                background-color:$white;
+                color:$highlights;
+            }
+        }
+        
+    }
+    #bgEx {
+        
+        ul {
+            border:none;
+            text-align:right;
+            a {
+                font-size:1rem;
+                transition:0.5s;
+                border-right:2px solid $white;
+                color:$main-bg;
+            }
+            a[aria-selected='true'] {
+                color:$highlights;
+                background-color:whitesmoke;
+                border-right:2px solid $highlights;
+            }
+        }
+        .tabs-content {
+            border:none;
+        }
+        .tabs-title {
+            
+        }
+        
+    }
+    form {
+        label {
+            display:block;
+        }
+        input[type="submit"]{
+            display:block;
+            margin:20px auto;
+            border:2px solid $highlights;
+            color:$white;
+            background-color:$dark-bg;
+            font-family:$bebas;
+            font-size:1.5rem;
+            padding:10px;
+            transition:0.5s;
+        }
+        input[type="submit"]:hover{
+            background-color:transparent;
+            color:$highlights;
+            border:2px solid $highlights;
+        }
+    }
+}

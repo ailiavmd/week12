@@ -26,5 +26,40 @@
     </div>
 </div>
 
+<div class="row expanded">
+    <h2>latest works</h2>
+</div>
+<div class="row latest-works">
+</div>
+
+<div class="row experience">
+    <div class="medium-6 columns">
+        <h2>experience</h2>
+    </div>
+    <div class="medium-6 columns"></div>
+</div>
+<div class="row education">
+    <div class="medium-6 columns"></div>
+    <div class="medium-6 columns">
+        <h2>education</h2>
+    </div>
+</div>
+
+<div class="row expanded skills">
+    <h3>Skills</h3>
+    <div class="medium-6 large-3 columns">1</div>
+    <div class="medium-6 large-3 columns">2</div>
+    <div class="medium-6 large-3 columns">3</div>
+    <div class="medium-6 large-3 columns">4</div>
+</div>
+
+<div class="row expanded software">
+    <h3>Mostly used software</h3>
+    <div class="medium-6 large-3 columns">1</div>
+    <div class="medium-6 large-3 columns">2</div>
+    <div class="medium-6 large-3 columns">3</div>
+    <div class="medium-6 large-3 columns">4</div>
+</div>
+
         
 <?php include('partials/footer.php');?>
